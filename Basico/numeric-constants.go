@@ -6,10 +6,10 @@ import "fmt"
 //Uma constante sem tipo pega o tipo necessário pelo seu contexto.
 
 const (
-	// Create a huge number by shifting a 1 bit left 100 places.
-	// In other words, the binary number that is 1 followed by 100 zeroes.
+	// Cria um número enorme deslocando 1 bit para a esquerda 100 casas.
+	// Em outras palavras, o número binário que é 1 seguido por 100 zeros.
 	Big = 1 << 100
-	// Shift it right again 99 places, so we end up with 1<<1, or 2.
+	// Desloca para a direita novamente 99 casas, então termina com 1 << 1 ou 2.
 	Small = Big >> 99
 )
 
